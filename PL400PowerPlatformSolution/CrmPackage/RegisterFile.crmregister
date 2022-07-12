@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="PL400PowerPlatformSolution.PL400Plugins.dll" Id="d4371857-340c-4cba-9b8c-de7755c72278" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Create of arm_pet" FriendlyName="Create of arm_pet" Name="PL400PowerPlatformSolution.PL400Plugins.PreOperationarm_petCreate" Id="d8d12a3b-38ca-4f3a-95c3-cecd2d1e261b" TypeName="PL400PowerPlatformSolution.PL400Plugins.PreOperationarm_petCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of arm_pet" Description="Create of arm_pet" Id="177c7303-e101-ed11-82e4-002248087d38" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="arm_pet" Rank="1" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+  <DataProviders />
+</Register>
